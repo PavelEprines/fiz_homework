@@ -1,0 +1,9 @@
+a = 1
+b = 10**20
+c = 1
+def f(a1, b1, c1):
+    d = (b1**2 - 4*a1*c1)**0.5
+    x1 = (-b1 + d)/2
+    x2 = (-b1 - d)/2
+    return x1, x2
+print(f(a, b, c))

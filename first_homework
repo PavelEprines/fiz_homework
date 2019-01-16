@@ -6,7 +6,7 @@ def f(N):
     return sum
 
 
-print ( f(15))   315
+print ( f(15))   15
 
 
 print ( f(1000)) 33165
